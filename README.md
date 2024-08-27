@@ -19,6 +19,8 @@
 3. **Stock Price Analysis** : Analyze stock price data using technical indicators.
 4. **Correlation Analysis** : Investigate the correlation between news sentiment and stock price movements.
 
+- *All details about the analysis are found in `notebooks/README.md`*
+
 ## Usage
 
 1. Run the Jupyter notebooks in the `notebooks/` directory to perform analysis.

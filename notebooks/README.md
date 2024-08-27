@@ -45,3 +45,11 @@
     - `plt.xlabel("Date")`
     - `plt.ylabel("Number of Articles")`
     - `plt.show()`
+
+## 1.5 Publisher analysis
+
+- Publisher analysis involves examining the contributions of different publishers to the dataset. This can help identify which publishers are most active and the nature of the news they report.
+  - Analyze the contribution of each publisher
+    - `publisher_contribution = df['publisher'].value_counts(normalize=True) * 100`
+  - Display the top contributors
+    - `publisher_contribution.head()`
