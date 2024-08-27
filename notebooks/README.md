@@ -30,3 +30,18 @@
     - `df['sentiment'] = df['headline'].apply(lambda x: TextBlob(x).sentiment.polarity)`
   - *Display sentiment statistics*
     - `df['sentiment'].describe()`
+
+## 1.4 Time series analysis
+
+- Time series analysis examines the data points indexed in time order. For this dataset, it involves analyzing publication trends over time, which can reveal insights into the frequency of articles during specific events.
+  - *Resample data by day and count the number of articles*
+    - `import matplotlib.pyplot as plt`
+    - `df.set_index('date', inplace=True)`
+    - `daily_articles = df['headline'].resample('D').count()`
+  - *Plot the number of articles over time*
+    - `plt.figure(figsize=(10, 5))`
+    - `daily_articles.plot()`
+    - `plt.title("Number of Articles Published Over Time")`
+    - `plt.xlabel("Date")`
+    - `plt.ylabel("Number of Articles")`
+    - `plt.show()`
