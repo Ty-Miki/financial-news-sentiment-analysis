@@ -7,3 +7,16 @@
   - `file_path = 'Path_to_the_csv_file'`
   - `df = pd.read_csv(file_path)`
   - **`print(df.head())`** -*This line displays the first few rows.*
+
+## 1.2 Descriptive statistics
+
+- Descriptive statistics provide a summary of the central tendency, dispersion, and shape of the data distribution. For text data, this might include statistics like the length of headlines, the count of articles per publisher, and the distribution of publication dates.
+  - *Claculate headline lengths,*
+    - `df['headline_length'] = df['headline'].apply(len)`
+  - *Basic statistics for headline lengths*
+    - `headline_stats = df['headline_length'].describe()`
+  - *Count the number of articles per publisher,*
+    - `publisher_counts = df['publisher'].value_counts()`
+  - *Analyze the publication dates,*
+    - `df['date'] = pd.to_datetime(df['date'])`
+    - `df['date'].describe()`
