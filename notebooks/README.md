@@ -20,3 +20,13 @@
   - *Analyze the publication dates,*
     - `df['date'] = pd.to_datetime(df['date'])`
     - `df['date'].describe()`
+
+
+## 1.3 Text Analysis / Sentiment analysis
+
+- Sentiment analysis aims to determine the sentiment behind the text, whether positive, negative, or neutral. Topic modeling identifies common topics or themes within the text.
+  - *Perform sentiment analysis*
+    - `from textblob import TextBlob`
+    - `df['sentiment'] = df['headline'].apply(lambda x: TextBlob(x).sentiment.polarity)`
+  - *Display sentiment statistics*
+    - `df['sentiment'].describe()`
