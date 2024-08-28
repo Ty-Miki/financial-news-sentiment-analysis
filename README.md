@@ -8,21 +8,19 @@
 
 * **.vscode/** : Contains personal development environment configuration settings for vscode.
 * **notebooks/** : Jupyter notebooks used for analysis and visualization.
-* **scripts/** : Python scripts for data processing, analysis, and model building.
-* **.github/workflows/** : CI/CD pipeline configuration with GitHub Actions.
-* **tests/** : Contains unitests of the project scripts.
+* **.github/workflows/** : CI/CD pipeline configuration with GitHub Acti
 
 ## Key Tasks
 
-1. **Exploratory Data Analysis (EDA)** : Analyze the dataset to extract key statistics and identify patterns.
-2. **Sentiment Analysis** : Perform sentiment analysis on news headlines to determine the sentiment score.
-3. **Stock Price Analysis** : Analyze stock price data using technical indicators.
-4. **Correlation Analysis** : Investigate the correlation between news sentiment and stock price movements.
+1. **Exploratory Data Analysis (EDA)** : Analyze the dataset to extract key statistics and identify patterns including **Sentiment Analysis** and **Time Series Analysis**
+2. **Stock Price Analysis** : Analyze stock price data using technical indicators.
+3. **Correlation Analysis** : Investigate the correlation between news sentiment and stock price movements.
+
+- *All details about the analysis are found in `notebooks/README.md`*
 
 ## Usage
 
 1. Run the Jupyter notebooks in the `notebooks/` directory to perform analysis.
-2. Use the scripts in the `scripts/` directory for data processing and analysis.
 
 ## Contributions
 
