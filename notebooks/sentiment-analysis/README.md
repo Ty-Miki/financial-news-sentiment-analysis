@@ -62,3 +62,7 @@
 
 - `print(f'Earliest Date: stock_data['date'].max()}')`
 - `print(f'Latest Date: {stock_data['date'].max()}')`
+
+**NB: All these steps are done in the `utils.py` module of the `scripts` package. **
+
+**-** *Then I have used those functions in the notebooks to perform the analysis. (This makes the analysis scaleable, i.e if you want to perform the analysis of another stock just add it to the list `stock_names` in `analysis.ipynb`)*
