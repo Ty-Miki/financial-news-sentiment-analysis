@@ -45,6 +45,7 @@
     - `plt.xlabel("Date")`
     - `plt.ylabel("Number of Articles")`
     - `plt.show()`
+- *Detailed TSA is shown at `./TSA/TAS_headline.ipynb`*
 
 ## 1.5 Publisher analysis
 
