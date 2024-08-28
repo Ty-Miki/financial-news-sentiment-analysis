@@ -76,7 +76,7 @@
 ## Simulating the data for validation
 
 - Next I have generated the simulated headline count data for the purpose of testing and validating the decomposition process.
-- I used a **Poisson distribution** to generate random headline counts with a mean of 5 per day, for the dates ranging from `January 1, 2023, to February 1, 2023`.
+- I used a **Poisson distribution** to generate random headline counts with a mean of 5 per day, for the dates ranging from `January 1, 2023, to May 1, 2023`.
   - `np.random.seed(0)`
   - `dates = pd.date_range(start="2023-01-01", end="2023-02-01", freq='D')`
   - `headline_counts = np.random.poisson(lam=5, size=len(dates))`
