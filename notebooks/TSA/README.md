@@ -83,3 +83,9 @@
   - `simulated_data = pd.DataFrame({'Date': dates, 'Headlines_Count': headline_counts})`
   - `simulated_data.set_index('Date', inplace=True)`
 - Then I used the same decomposition as the original data and plotted the different components of the simulated data.
+
+## How to Run the Notebook
+
+1. Ensure all required libraries are installed. Use `pip install -r requirements.txt` if a `requirements.txt` file is provided.
+2. Open the Jupyter Notebook.
+3. Run each cell sequentially to perform the analysis.

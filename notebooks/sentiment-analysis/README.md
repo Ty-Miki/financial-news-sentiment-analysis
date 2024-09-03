@@ -7,7 +7,6 @@
 ### 1. Loading the data and making a copy of it
 
 - After loading the dataset in-to a pandas dataframe I made a copy of the original data.
-
 - `sentiment_data = df.copy()`
 
 ***Purpose:** To work on a copy of the original data, preserving the original DataFrame*
@@ -66,3 +65,9 @@
 **NB: All these steps are done in the `utils.py` module of the `scripts` package. **
 
 **-** *Then I have used those functions in the notebooks to perform the analysis. (This makes the analysis scaleable, i.e if you want to perform the analysis of another stock just add it to the list `stock_names` in `analysis.ipynb`)*
+
+## How to Run the Notebook
+
+1. Ensure all required libraries are installed. Use `pip install -r requirements.txt` if a `requirements.txt` file is provided.
+2. Open the Jupyter Notebook.
+3. Run each cell sequentially to perform the analysis.
