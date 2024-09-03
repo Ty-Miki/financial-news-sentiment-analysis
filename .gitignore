@@ -3,3 +3,7 @@ venv/
 data/
 
 __pycache__
+
+TA_Lib-0.4.32-cp312-cp312-win_amd64.whl
+
+yfinance_data/
