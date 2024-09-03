@@ -21,7 +21,6 @@
     - `df['date'] = pd.to_datetime(df['date'])`
     - `df['date'].describe()`
 
-
 ## 1.3 Text Analysis / Sentiment analysis
 
 - Sentiment analysis aims to determine the sentiment behind the text, whether positive, negative, or neutral. Topic modeling identifies common topics or themes within the text.
@@ -54,3 +53,9 @@
     - `publisher_contribution = df['publisher'].value_counts(normalize=True) * 100`
   - Display the top contributors
     - `publisher_contribution.head()`
+
+## How to Run the Notebook
+
+1. Ensure all required libraries are installed. Use `pip install -r requirements.txt` if a `requirements.txt` file is provided.
+2. Open the Jupyter Notebook.
+3. Run each cell sequentially to perform the analysis.
