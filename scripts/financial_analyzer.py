@@ -1,3 +1,4 @@
+import sys, os
 import pandas as pd
 import yfinance as yf
 import talib as ta
@@ -10,8 +11,8 @@ class FinancialAnalyzer:
     def __init__(self):
         pass
 
-    def load_stock_data(self, ticker):
-        return pd.read_csv(f'./yfinance_data/{ticker}_historical_data.csv')
+    def load_stock_data(self, ticker, parent_directory):
+        return pd.read_csv(f'{parent_directory}/notebooks/data/yfinance_data/{ticker}_historical_data.csv')
 
     def calculate_moving_average(self, data, window_size):
         return ta.SMA(data, timeperiod=window_size)
